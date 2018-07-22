@@ -1,0 +1,14 @@
+#ifndef SURVEYOR_TYPES_H
+#define SURVEYOR_TYPES_H
+
+typedef enum {
+    SURVEYOR_UNKNOWN,
+    SURVEYOR_OK,
+    SURVEYOR_BADARG,
+    SURVEYOR_NODIR,
+    SURVEYOR_NOACCESS,
+    SURVEYOR_NOMEMORY,
+    SURVEYOR_ERROR
+} surveyor_error_t;
+
+#endif
